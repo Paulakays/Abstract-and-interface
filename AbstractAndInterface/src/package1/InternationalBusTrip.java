@@ -10,7 +10,7 @@ public class InternationalBusTrip extends TravelPlan implements Passenger{
 	@Override
 	public void showTravelDetails() {
 		System.out.println("International Bus Trip");
-		System.out.println("Departure date: " + departure + ". Destination: " + destination + ". Date of travel: " + travelDate);	
+		System.out.println("Departure: " + departure + ". Destination: " + destination + ". Date of travel: " + travelDate);	
 	}
 	@Override 
 	public void displayPassengerInfo(String name, String passportNumber) {
