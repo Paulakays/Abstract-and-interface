@@ -11,7 +11,7 @@ public class DomesticBusTrip extends TravelPlan implements Passenger {
 	@Override
 	public void showTravelDetails() {
 		System.out.println("Domestic Bus Trip");
-		System.out.println("The departure date is: " + departure + ". The destination is: " + destination + ". The date of travel is: " + travelDate);	
+		System.out.println("The place of departure is: " + departure + ". The destination is: " + destination + ". The date of travel is: " + travelDate);	
 	}
 	
 	@Override
